@@ -39,6 +39,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.9/ace.js"
     ></script>
 
+
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">MatrioshTS</span>
     </nav>
@@ -54,8 +55,8 @@
               Acciones
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <button class="dropdown-item" type="button">Traducir</button>
-              <button class="dropdown-item" type="button">Ejecutar</button>
+              <button class="dropdown-item" type="button" >Traducir</button>
+              <button class="dropdown-item" type="button" onclick="analizar()">Ejecutar</button>
               <button class="dropdown-item" type="button">Limpiar</button>
             </div>
           </div>
@@ -83,5 +84,7 @@
       out.getSession().setMode("ace/mode/javascript");
       out.setTheme("ace/theme/dracula");
     </script>
+    <script src="js/main.js"></script>
+    <script src="js/CalculadoraHeredados.js"></script>
   </body>
 </html>
