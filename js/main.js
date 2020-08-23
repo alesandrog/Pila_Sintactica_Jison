@@ -8,3 +8,7 @@ function analizar (){
     output.setValue(res.toString());
 }
 
+function limpiar(){
+    input.setValue("");
+    output.setValue("");
+}
